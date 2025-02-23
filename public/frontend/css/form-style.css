@@ -1,0 +1,123 @@
+body{
+    box-sizing: border-box;
+}
+
+form{
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #f5f1f1;
+}
+
+.form-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo img{
+    width: 75px;
+    padding: 5px;
+}
+
+.text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.font{
+    font-size: 20px;
+}
+
+.topic{
+    font-weight: bold;
+    margin: 15px;
+}
+
+.clz-title{
+    width: 100%;
+    color: green;
+    font-size: 30px;
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+}
+
+.compulsary{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.title{
+    color: white;
+    background-color: #00a54f;
+    font-size: 30px;
+    margin: 6px;
+}
+
+.input-text{
+    font-family: sans-serif;
+}
+
+.namebox input{
+    width: 100%;
+    height: 30px;
+}
+
+.namebox {
+    font-size: 20px;
+}
+
+input{
+    height: 20px;
+    margin: 5px;
+} 
+
+.course-stdlvl select{
+    width: 200px;
+    height: 25px;
+}
+
+.gender-national-mail select{
+    width: 200px;
+    height: 25px;
+}
+
+.dob input{
+    width: 150px;
+    height: 25px; 
+}
+
+.query input{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.apply-btn{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.apply-btn button{
+    border: none;
+    background-color: #00a54f;
+    color: white;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.apply-btn button:hover{
+    color: green;
+    background-color: rgb(232, 226, 226);
+}

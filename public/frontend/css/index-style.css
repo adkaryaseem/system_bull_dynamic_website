@@ -1,0 +1,889 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Main-Section-Started */
+
+main{
+    margin: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/* casorole start */
+
+.scrolling{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.s-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    place-items: center;
+}
+
+.scrolling img{
+    /* height: 400px; */
+    width: 1200px;
+    padding: 50px;
+    /* margin: 0px 10px 0px 15px; */
+}
+
+/* casorol end */
+
+/* marquee */
+
+.notice-marque{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.notice-box{
+    font-size: 20px;
+    width: 100px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    place-items: center;
+    margin-top: 12px;
+    padding: 5px 5px 20px 5px;
+}
+
+.marquee{
+    width: 80vw;
+    font-size: 20px;
+}
+
+.marquee ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.marquee li{
+    text-decoration: none;
+}
+
+/* marquee end */
+
+.gr-bhatta{
+    display: flex;
+    flex-direction: row;
+}
+
+.gr-bhatta-msg{
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+}
+
+main h3{
+    width: 100%;
+    margin: 20px; 
+    color: rgb(0, 166, 83); 
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.cman-img{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.intr-img{
+    width: 450px;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+.cman-msg{
+    margin: 150px 50px 20px 30px;
+    text-align: justify;
+}
+
+.msg{
+    line-height: 200%;
+}
+
+
+.msg-btn{
+    margin: 20px 20px 20px 0px;
+}
+
+.rdmr-btn{
+    color: white;
+    background-color: black;
+    line-height: 200%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.rdmr-btn:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 5px red;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    place-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color: #1d2057;
+    color:white
+}
+
+.card{
+    color: green;
+    width: 275px;
+    height: 300px;
+    margin: 20px 10px 20px 50px;
+    background-color: #cccc;
+    border-radius: 10px;
+    transition: 0.2s all ease-in-out;
+}
+
+.card h2{
+    margin-top: 40px;
+}
+
+.card li{
+    color: red;
+    text-align: left;
+    place-items: center;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
+
+}
+
+.lrn-mor{
+    color: white;
+    background-color: black;
+    line-height: 200%;
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+    margin: 7px 60px 0px 0px; 
+}
+
+.lrn-mor:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 5px red;
+}
+
+.info-img{
+    margin: 0px 10px 0px 50px;
+}
+
+.info-img img{
+    width: 350px; 
+    height: 400px; 
+    border-radius: 2%;
+}
+
+.sys-intro{
+    display: flex;
+    flex-direction: row;
+   /* text-align: center;
+    place-items: center;  */
+    margin: 50px 10px 20px 150px;
+    padding: 50px;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+.int{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    place-items: center;
+}
+
+.intro-text{
+    width: 40vw;
+    line-height: 200%;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0px 20px 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clz-intro-img{
+    margin: 170px 300px 0px 10px;
+}
+
+.sys-intro-img{
+    width: 500px; 
+    height: 400px; 
+    border-radius: 1%;
+}
+
+.over-view{
+    color: white;
+    background-color: black;
+    line-height: 200%;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+}
+
+.over-view:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 5px red; 
+}
+
+.why-bull{
+    width: 80vw;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.qsn-ans{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.video{
+    width: 500px;
+    height: 300px;
+    margin: 170px 40px 0px 60px;
+}
+
+.answer{
+    width: 50vw;
+    height: 300px;
+    margin: 5px 20px 0px 30px;
+    line-height: 200%;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.college-background{
+    margin: 20px 20px 10px 0px;
+    margin-left: 20px;
+    background-image: url('http://127.0.0.1:8000/frontend/image/college-building.jfif');
+    background-size: 100vw 50vw;
+    padding: 5px;
+    width: 99%;
+    height: 550px;
+    text-align: center;
+    place-items: center;
+}
+
+.college-background-logo{
+    padding-top: 100px;
+    margin: 10px 10px 5px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.college-bg-text{
+    color: rgb(233, 14, 14);
+    line-height: 50%;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.tetx-2 h2{
+    font-size: 30px;
+}
+
+.student-life-sec{
+    width: 100vw;
+    height: 900px;
+    margin: 20px;
+    background-color: #1d2057;
+}
+
+.student-life{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    place-items: center;
+}
+
+.student-life-img{
+    display: flex;
+    flex-direction: row;
+    /* width: 50%; */
+    height: 300px;
+    /* margin: 100px 250px 20px 10px; */
+    justify-content: space-evenly;
+}
+
+.student-life-img img{
+    width: 300px;
+    height: 300px;
+    /* margin: 20px; */
+}
+
+.student-life-img .sl-1{
+    margin-top: 25px;
+    border-radius: 10%;
+}
+
+.student-life-img .sl-2{
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.student-life-img .sl-3{
+    margin-top: 25px;
+    border-radius: 10%;
+}
+
+.student-life-text{
+    /* text-align: justify; */
+    font-size: 30px;
+}
+
+.bull-all{
+    width: 70vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin: 30px 20px 20px 200px;
+    padding: 10px 50px 10px 5px;
+    background-color: rgb(246, 246, 238);
+}
+
+.ocm{
+    width: 25vw;
+    height: 160px;
+    font-size: 25px;
+    margin: 160px 5px 20px 30px;
+}
+
+.over-view .campus-info .msg-princi{
+    text-align: justify;
+}
+
+.topic{
+    font-size: 30px;
+    color: rgb(0, 166, 83);
+}
+.history{
+    width: 30vw;
+    height: 150px;
+    margin: 120px 20px 20px 0px;
+    text-align: justify;
+    padding: 10px;
+    border: solid;
+    border-radius: 2%;
+    background-color:  rgba(122, 125, 126, 0.1);
+    border-color: rgba(135, 157, 161, 0.1);
+}
+
+.vision-mission{
+    width: 30vw;
+    height: 150px;
+    margin: 120px 5px 20px 10px;
+    text-align: justify;
+    padding: 10px;
+    border: solid;
+    border-radius: 2%;
+    background-color:  rgba(122, 125, 126, 0.1);
+    border-color: rgba(135, 157, 161, 0.1);
+}
+
+.resource-facility{
+    width: 70vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 200px 20px 200px;
+}
+
+.resource-facility-text1{
+    width: 100vw;
+    text-align: justify;
+}
+
+.resource-facility-text2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.size-inc{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.resource-facility-img{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 10px 40px;
+}
+
+.resource-facility-img img{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.knowledge-partner{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 200px 100px 400px;
+}
+
+.knowledge-topic{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.knowledge-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.nectra{
+    margin: 20px 100px 10px 5px;
+}
+
+.nectra img{
+    width: 150px;
+    height: 50px;
+}
+
+.ctevt{
+    margin: 20px  100px 10px 5px;
+}
+
+.ctevt img {
+    width: 50px;
+    height: 50px; 
+}
+
+.shyang{
+    margin: 20px 100px 10px 5px;
+}
+
+.shyang img{
+    width: 50px;
+    height: 50px;
+}
+
+.testimonials{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+    place-items: center;
+}
+
+.card-1{
+    width: 300px;
+    height: 400px;
+    /* background: #cccc; */
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+.card-1 img{
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%
+}
+/* Main-Section-end */
+
+/* Footer-Section-Start */
+
+.footer-sections{
+    width: 100vw;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    background-color: #1d2057;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 70px 20px 20px 20px;
+}
+
+.footer-logo img{
+    width: 80px;
+    height: 80px;
+    margin: 0px 10px 20px 30px;
+}
+
+.footer-text{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    line-height: 200%;
+    font-weight: 700;
+}
+
+.quick-links{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 20px 20px;
+    padding: 20px;
+}
+
+.quick-link{
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.middle-1{
+    margin: 10px 0px 10px 0px;
+}
+
+.middle-1 *{
+    font-size: 20px;
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.about-us-footer a:hover{
+    color: green;
+}
+
+.courses-footer a:hover{
+    color: green;
+}
+
+.gallery-footer a:hover{
+    color: green;
+}
+
+.contact-footer a:hover{
+    color: green;
+}
+
+.quick-contacts{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 20px 20px;
+    padding: 10px;
+}
+
+.quick-contact{
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.middle-2{
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+
+.news-letter-section{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 20px 50px;
+}
+
+.news-letter{
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.email-box-text{
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    text-align: justify;
+}
+
+.email-box{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.footer-sections hr{
+    width: 80vw;
+}
+
+.end-line{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.copy-right{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    margin: 0px 50px 10px 200px;
+}
+
+.designer{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    margin: 0px 10px 0px 200px;
+}
+
+.designer a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.designer abbr{
+    text-decoration: none;
+}
+
+/* footer-section-ended */
+
+
+@media (max-width: 600px) {
+
+    /* responsiv-for-header-section */
+
+    .nav-info{
+        width: 100%;
+        height: 14vw;
+        place-items: start;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .page-logo{
+        display: flex;
+        flex-direction: row;
+        float: left;
+        margin: 2px 2px 2px 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-nav{
+        flex-basis: 10vw;
+    }
+
+    .pad-10{
+        padding: 5px;
+    }
+
+    .nav-media-sm{
+        display: block;
+    }
+    
+    .nav-media{
+        display: none;
+    }
+
+    .fa-regular{
+        display: block;
+    }
+
+    .fa-brands{
+        margin: 0.5px;
+        padding: 0.5px;
+        border-width: 0.5px;
+    }
+
+    .side-bar-phone-display{
+        border: 1px solid red;
+        padding: 5px;
+        margin-bottom: 5px;
+        float: right;
+        display: block;
+        color: red;
+        cursor: pointer;
+    }
+
+    .nav-contents{
+        display: none;
+        height: 100vw;
+        width: 200px;
+        z-index: 999;
+        position: relative;
+        flex-direction: column;
+        flex-basis: 100vw;
+        float: right;
+    }
+
+    .nav-content-inside{
+        transform: translateX(-40vw);
+    }
+
+    .drop-down-content{
+        max-width: 250px;
+        width: 200px;
+    }
+
+    .cross-btn{
+        display: block;
+        cursor: pointer;
+    }
+    
+    /* responsiv-for-header-section-end */
+
+    /* responsive-for-main-section-start */
+
+    main h1{
+        font-size: 35px;
+    }
+
+    .intr-img{
+        margin: 10px;
+    }
+
+    .cman-img{
+        flex-direction: column;
+    }
+
+    .cman-msg{
+        margin-top: 50px;
+        text-align: justify;
+    }
+
+    .gr-bhatta{
+        flex-direction: column;
+    }
+
+    .gr-bhatta-msg{
+        flex: row;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 30px;
+    }
+    
+    .info-img{
+        margin: 30px;
+    }
+
+    .sys-intro{
+        flex-direction: column;
+    }
+
+    .int{
+        width: 100vw;
+    }
+
+    .int h1{
+        margin: 0px 2px 2px 50px;
+    }
+
+    .intro-text{
+        margin: 20px;
+    }
+
+    .sys-intro-img{
+        width: 500px;
+        height: 325px;
+    }
+
+    .why-bull{
+        flex-direction: column;
+    }
+
+    .college-background{
+        margin: 10px 50px 10px 5px;
+        background-size: 110vw 100vw;
+    }
+
+    .college-background-logo{
+        width: 75px;
+        height: 75px;
+    }
+
+    .college-bg-text{
+        font-size: 25px;
+    }
+
+    .student-life-sec{
+        height: 1050px;
+    }
+
+    .student-life-img{
+        flex-direction: column;
+    }
+
+    .student-life-img .sl-2{
+        margin-top: 20px;
+    }
+
+    .bull-all{
+        height: 700px;
+        margin: 20px 50px 10px 10px;
+        flex-direction: column;
+        text-align: center;
+        place-items: center;
+    }
+
+    .ocm{
+        width: 50vw;
+        height: 300px;
+    }
+
+    .history{
+        width: 80vw;
+        height: 300px;
+    }
+
+    .vision-mission{
+        width: 80vw;
+        height: 300px;
+    }
+
+
+
+}

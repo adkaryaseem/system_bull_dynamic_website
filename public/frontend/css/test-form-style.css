@@ -1,0 +1,79 @@
+form{
+    margin: 0 auto;
+}
+.heading .head-name{
+    font-size: 30px; 
+    color: green;
+}
+
+.photo-place{
+    text-align: left;
+}
+
+.photo-place input{
+    cursor: pointer;
+}
+
+.compulsary{
+    color: red;
+    font-size: 20px;
+}
+
+.title{
+    height: 30px; 
+    font-size: 25px; 
+    background-color: #00a54f; 
+    text-transform: uppercase; 
+    color: white;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.full-name input{
+    width: 99%;
+    height: 20px;
+}
+
+input{
+    height: 20px;
+    margin: 10px;
+}
+
+select{
+    height: 25px;
+}
+
+#country{
+    width: 200px;
+}
+
+.query{
+    margin-top: 60px;
+}
+
+.query textarea{
+    resize: none;
+    width: 99%;
+    height: 50px;
+}
+
+.submit-btn{
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
+
+.submit-btn button{
+    background-color: #00a54f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.submit-btn button:hover{
+    background-color: aquamarine;
+    color: black;
+}

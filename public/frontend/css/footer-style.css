@@ -1,0 +1,164 @@
+/* Footer-Section-Start */
+
+.footer-sections{
+    width: 100vw;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    background-color: #1d2057;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 70px 20px 20px 20px;
+}
+
+.footer-logo img{
+    width: 80px;
+    height: 80px;
+    margin: 0px 10px 20px 30px;
+}
+
+.footer-text{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    line-height: 200%;
+    font-weight: 700;
+}
+
+.quick-links{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 20px 20px;
+    padding: 20px;
+}
+
+.quick-link{
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.middle-1{
+    margin: 10px 0px 10px 0px;
+}
+
+.middle-1 *{
+    font-size: 20px;
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.about-us-footer a:hover{
+    color: green;
+}
+
+.courses-footer a:hover{
+    color: green;
+}
+
+.gallery-footer a:hover{
+    color: green;
+}
+
+.contact-footer a:hover{
+    color: green;
+}
+
+.quick-contacts{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 20px 20px;
+    padding: 10px;
+}
+
+.quick-contact{
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.middle-2{
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+
+.news-letter-section{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 20px 50px;
+}
+
+.news-letter{
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.email-box-text{
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    text-align: justify;
+}
+
+.email-box{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.footer-sections hr{
+    width: 80vw;
+}
+
+.end-line{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.copy-right{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    margin: 0px 50px 10px 200px;
+}
+
+.designer{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    margin: 0px 10px 0px 200px;
+}
+
+.designer a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.designer abbr{
+    text-decoration: none;
+}
+
+/* footer-section-end */

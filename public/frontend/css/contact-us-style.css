@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Main-Section-Started */
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-content{
+    margin-right: 2px;
+    border-right: solid black;
+}
+
+.container-1{
+    width: 100vw;
+    height: 300px;
+    background-color: #59699a;
+    margin: 20px 0px 50px 0px;
+}
+
+.cntnr-title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    cursor: context-menu;
+}
+
+.contact-box span{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact-box p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    cursor: pointer;
+}
+
+.contact-icon i{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 32px;
+    color: white;
+    background-color: green;
+}
+
+.section{
+    margin: 0px auto;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+    color: #06a152;
+}
+
+.text-box{
+    margin: 10px 2px 20px 2px;
+}
+
+.text-box input{
+    height: 50px;
+    width: 400px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.text-box textarea{
+    resize: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.map-frame iframe{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.cntr-btn{
+    margin: 0 auto;
+    width: 100px;
+}
+
+.cntr-btn button{
+    height: 50px;
+    background-color: red;
+    font-size:20px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* main-section-end */
