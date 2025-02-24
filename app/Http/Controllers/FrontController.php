@@ -8,12 +8,15 @@ use App\Models\Introduction;
 use App\Models\PhotoGallery;
 use Illuminate\Http\Request;
 use App\Models\StudentAdmission;
+use App\Models\home_page\Scrolling_Image;
+
 
 class FrontController extends Controller
 {
     public function index()
     {
-        return view("frontend.index");
+        $scrolling = Scrolling_Image::get();
+        return view("frontend.index",compact('scrolling'));
     }
 
     public function introduction()

@@ -78,7 +78,7 @@ class ScrollingImageController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function delete(Scrolling_Image $id)
+    public function delete($id)
     {
         Scrolling_Image::where("id", "=", $id)->delete();
         return redirect()->route('admin.scrolling.index');

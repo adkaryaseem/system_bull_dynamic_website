@@ -12,7 +12,8 @@
     <main>
       <hr/>
         <div class="owl-carousel">
-          <div class="scrolling s-photo">
+
+          {{-- <div class="scrolling s-photo">
             <img src="{{ asset('frontend/image/china_MG_5565.jpg') }}"/>
           </div>
           <div class="scrolling s-photo">
@@ -27,7 +28,13 @@
           </div>
           <div class="scrolling s-photo">
             <img src="{{ asset('frontend/image/sl-1.jpeg')}}"/>
+          </div> --}}
+          @foreach ($scrolling as $photo)   
+          <div class="scrolling s-photo">
+            <img src="{{ asset('storage/'.$photo->images) }}"/>
           </div>
+          @endforeach
+
         </div>
         <hr/>
         <!-- Notice Start -->
@@ -37,7 +44,7 @@
                           Notice
                 </div>
           <div class="marquee">
-               <marquee behavior="scrolling" direction="rights">
+               <marquee behavior="scrolling" direction="rights" onmouseover="this.stop();" onmouseout="this.start();" >
                 <ul>
                   <li>
                     Dashin Vaccation Start Date (2081-06-31)
@@ -47,6 +54,15 @@
                   </li>
                   <li>
                     Holiday For Teej Festival
+                  </li>
+                  <li>
+                    Holiday For Maghe Sankranti
+                  </li>
+                  <li>
+                    Holiday For Shivaratri
+                  </li>
+                  <li>
+                    Holiday For Holi
                   </li>
                 </ul>
               </marquee>
