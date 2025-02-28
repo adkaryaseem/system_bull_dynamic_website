@@ -86,7 +86,7 @@ class HomeIntroductionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy($id)
+    public function delete($id)
     {
         HomeIntroduction::where('id','=',$id)->delete();
         return redirect()->route('admin.homeintroduction.index');
