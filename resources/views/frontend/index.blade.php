@@ -118,34 +118,24 @@
         </div>
       </div>
       <!-- College Introduction -->
+      @foreach ($introductions as $introduction)  
       <div class="sys-intro">
         <div class="int">
           <div class="topic">
             <h1>Introduction</h1>
           </div>
           <span class="intro-text">
-            With the advent of modern information and communication technology
-            the demand of technical education is increasing day by day whereas
-            the traditional method of teaching and learning practiced in Nepal
-            became outdated. If the demand of ICT related human resources are
-            kept in center stage. Therefore a Group of Professional Computer
-            Engineers has decided to take a lead for running ICT course at
-            System Bull information and Communication Technology College. Our
-            vision is to produce low, mid and high-end ICT professionals with
-            international accreditation as to compete with national as well
-            international demand. The course (Professional Computer hardwar &
-            Network technician) which is affiliated by CTEV So that it would
-            promote self-employment and also addresses for minimization of
-            unemployment in the country.
+            {{ $introduction->message }}
             <div>
               <button class="over-view">College Overview</button>
             </div>
           </span>
         </div>
         <div class="clz-intro-img">
-          <img src="{{ asset('frontend/image/intro.jpg')}}" class="sys-intro-img" />
+          <img src="{{ asset('storage/'.$introduction->image)}}" class="sys-intro-img" />
         </div>
       </div>
+      @endforeach
       <!-- why system Bull? -->
       <div class="why-bull">
         <div>

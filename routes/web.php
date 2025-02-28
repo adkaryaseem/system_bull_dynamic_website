@@ -9,6 +9,7 @@ use App\Http\Controllers\IntroductionController;
 use App\Http\Controllers\PhotoGalleryController;
 use App\Http\Controllers\ScrollingImageController;
 use App\Http\Controllers\ChairmanMessageController;
+use App\Http\Controllers\HomeIntroductionController;
 use App\Http\Controllers\StudentAdmissionController;
 use App\Http\Controllers\StudentTestiminialController;
 
@@ -100,6 +101,14 @@ Route::prefix('admin/')->name('admin.')->group(function () {
     Route::get('chairmanmessage/edit/{id}', [ChairmanMessageController::class, "edit"])->name('chairmanmessage.edit');
     Route::post('chairmanmessage/update/{id}', [ChairmanMessageController::class, "update"])->name('chairmanmessage.update');
     Route::any('chairmanmessage/delete/{id}', [ChairmanMessageController::class, "delete"])->name('chairmanmessage.delete');
+
+
+    Route::get('homeintroduction/index', [HomeIntroductionController::class, "index"])->name('homeintroduction.index');
+    Route::get('homeintroduction/create', [HomeIntroductionController::class, "create"])->name('homeintroduction.create');
+    Route::post('homeintroduction/store', [HomeIntroductionController::class, "store"])->name('homeintroduction.store');
+    Route::get('homeintroduction/edit/{id}', [HomeIntroductionController::class, "edit"])->name('homeintroduction.edit');
+    Route::post('homeintroduction/update/{id}', [HomeIntroductionController::class, "update"])->name('homeintroduction.update');
+    Route::any('homeintroduction/delete/{id}', [HomeIntroductionController::class, "delete"])->name('homeintroduction.delete');
 
 
     Route::get('testimonials/index', [StudentTestiminialController::class, "index"])->name('testimonials.index');

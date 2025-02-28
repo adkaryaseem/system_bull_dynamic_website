@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use App\Models\StudentAdmission;
 use App\Models\home_page\ChairmanMessage;
 use App\Models\home_page\Scrolling_Image;
+use App\Models\home_page\HomeIntroduction;
 use App\Models\home_page\StudentTestiminial;
 
 
@@ -20,7 +21,8 @@ class FrontController extends Controller
         $scrolling = Scrolling_Image::get();
         $chairman = ChairmanMessage::get();
         $testimonials = StudentTestiminial::get();
-        return view("frontend.index",compact('scrolling','chairman', 'testimonials' ));
+        $introductions = HomeIntroduction::get();
+        return view("frontend.index",compact('scrolling','chairman', 'testimonials','introductions' ));
     }
 
     public function introduction()

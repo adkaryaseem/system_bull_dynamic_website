@@ -17,7 +17,7 @@
             Image
         </th>
         <th>
-          Chairman Message
+          Student Message
         </th>
         <th>
             Action
