@@ -154,19 +154,9 @@
             <h1>Why System Bull?</h1>
           </div>
           <div class="answer">
-            This college of information and Communication Technology has been
-            established by experienced IT professional Engineer working in the
-            related field for more than decade to provide quality education in
-            order to meet the growing global demand of low, middle and highly
-            skilled IT professionals. We are committed to produce dedicated,
-            competent, self-starter and well trained graduates to address job
-            market of the country as well as abroad. They will be provided
-            hands-on experience before placement so as to deliver world-class
-            skill and knowledge within no time. System Bull is established to
-            provide ICT education for all on the basis of CTEVT - Curriculum
-            standard. With our existing faculty and infrastructure as SYSTEM
-            BULL, we can produce skill and qualified graduates who can compete
-            at any IT related job market in the world.
+            @foreach ($why as $bull)
+            {{ $bull->message }}
+            @endforeach
             <div class="msg-btn">
               <button class="rdmr-btn">Read More</button>
             </div>

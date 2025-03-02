@@ -35,5 +35,8 @@
         <div class="cntnr">
              <a href="{{ route('admin.homeintroduction.index') }}">Home Introduction</a>
         </div>
+        <div class="cntnr">
+            <a href="{{ route('admin.whybull.index') }}">Why Bull</a>
+       </div>
     </div>
 @endsection

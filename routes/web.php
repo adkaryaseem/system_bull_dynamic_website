@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\CountryController;
+use App\Http\Controllers\WhyBullController;
 use App\Http\Controllers\IntroductionController;
 use App\Http\Controllers\PhotoGalleryController;
 use App\Http\Controllers\ScrollingImageController;
@@ -117,5 +118,13 @@ Route::prefix('admin/')->name('admin.')->group(function () {
     Route::get('testimonials/edit/{id}', [StudentTestiminialController::class, "edit"])->name('testimonials.edit');
     Route::post('testimonials/update/{id}', [StudentTestiminialController::class, "update"])->name('testimonials.update');
     Route::any('testimonials/delete/{id}', [StudentTestiminialController::class, "delete"])->name('testimonials.delete');
+
+
+    Route::get('whybull/index', [WhyBullController::class, "index"])->name('whybull.index');
+    Route::get('whybull/create', [WhyBullController::class, "create"])->name('whybull.create');
+    Route::post('whybull/store', [WhyBullController::class, "store"])->name('whybull.store');
+    Route::get('whybull/edit/{id}', [WhyBullController::class, "edit"])->name('whybull.edit');
+    Route::post('whybull/update/{id}', [WhyBullController::class, "update"])->name('whybull.update');
+    Route::any('whybull/delete/{id}', [WhyBullController::class, "delete"])->name('whybull.delete');
 });
 
