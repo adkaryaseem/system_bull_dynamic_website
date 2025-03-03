@@ -12,7 +12,6 @@
     <main>
       <hr/>
         <div class="owl-carousel">
-
           {{-- <div class="scrolling s-photo">
             <img src="{{ asset('frontend/image/china_MG_5565.jpg') }}"/>
           </div>
@@ -34,7 +33,6 @@
             <img src="{{ asset('storage/'.$photo->images) }}"/>
           </div>
           @endforeach
-
         </div>
         <hr/>
         <!-- Notice Start -->
