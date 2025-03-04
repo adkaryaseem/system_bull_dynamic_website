@@ -45,22 +45,34 @@
                <marquee behavior="scrolling" direction="rights" onmouseover="this.stop();" onmouseout="this.start();" >
                 <ul>
                   <li>
-                    Dashin Vaccation Start Date (2081-06-31)
+                      <a href="{{ route('news-notice') }}">
+                          Dashin Vaccation Start Date (2081-06-31)
+                      </a>
+                    </li>
+                  <li>
+                      <a href="{{ route('news-notice') }}">
+                          Holiday for Janai Purnima
+                      </a>
+                    </li>
+                  <li>
+                    <a href="{{ route('news-notice') }}">
+                          Holiday for Teej Festival
+                    </a>
                   </li>
                   <li>
-                    Holiday For Janai Purnima
+                    <a href="{{ route('news-notice') }}">
+                          Holiday for Maghe Sankranti
+                    </a>
                   </li>
                   <li>
-                    Holiday For Teej Festival
+                    <a href="{{ route('news-notice') }}">
+                          Holiday for Shivaratri
+                    </a>
                   </li>
                   <li>
-                    Holiday For Maghe Sankranti
-                  </li>
-                  <li>
-                    Holiday For Shivaratri
-                  </li>
-                  <li>
-                    Holiday For Holi
+                    <a href="{{ route('news-notice') }}">
+                          Holiday for Holi
+                    </a>
                   </li>
                 </ul>
               </marquee>
