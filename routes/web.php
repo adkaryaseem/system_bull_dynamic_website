@@ -51,7 +51,7 @@ Route::get('login/index', [AuthController::class, "loginindex"])->name("login.in
 Route::post('login', [AuthController::class, "login"])->name("login");
 
 //route grouping
-Route::prefix('admin/')->name('admin.')->group(function () {
+Route::prefix('admin/')->name('admin.')->middleware('auth.check')->group(function () {
     Route::get('dashboard', function () {
         return view('backend.dashboard');
 
