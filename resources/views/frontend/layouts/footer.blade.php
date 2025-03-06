@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="{{ asset('frontend/css/footer-style.css') }}">
 <footer>
+  <div class="return-top">
+    <button class="back-to-top">
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+  </div>
     <div class="footer-sections">
       <div class="footer-section">
         <div class="footer-right">

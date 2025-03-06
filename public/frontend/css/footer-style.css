@@ -1,4 +1,23 @@
 /* Footer-Section-Start */
+.return-top{
+    display: flex;
+    justify-content: center;
+    height:80px;
+    width:80px;
+    position: fixed;
+    bottom: 10;
+    right: 10;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color:rgb(244, 150, 150);
+}
+
+.return-top button{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: rgb(238, 41, 41);
+}
 
 .footer-sections{
     width: 100vw;
