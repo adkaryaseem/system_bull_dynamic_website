@@ -6,6 +6,7 @@ use App\Http\Controllers\FrontController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\WhyBullController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\IntroductionController;
 use App\Http\Controllers\PhotoGalleryController;
 use App\Http\Controllers\ScrollingImageController;
@@ -45,6 +46,7 @@ Route::get('gallary/photo', [FrontController::class, "photo"])->name("gallary.ph
 Route::get('gallary/video', [FrontController::class, "video"])->name("gallary.video");
 Route::get('vaccancy', [FrontController::class, "vaccancy"])->name("vaccancy");
 Route::get('contactus', [FrontController::class, "contactus"])->name("contactus");
+Route::post('newsletter/subscribe', [NewsletterController::class, "newslettersubscribe"])->name("newsletter.subscribe");
 
 // Backend routes
 Route::get('login/index', [AuthController::class, "loginindex"])->name("login.index");
