@@ -38,7 +38,7 @@ class CountryController extends Controller
         // ]);
 
         $country = new Country(); // model instance creation
-        $country->name = $request->name; // assigning vakue to object
+        $country->name = $request->country; // assigning value to object
         // if($request->checked == true){
         //     $country->alias = $request->alias;
         // }
