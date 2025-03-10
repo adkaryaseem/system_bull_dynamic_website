@@ -313,13 +313,13 @@ class ComposerStaticInitbfe12996eeecb6fdc8713a9fd9d431f8
         ),
         'Spatie\\LaravelIgnition\\' => 
         array (
-            0 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/laravel-ignition',
-            1 => __DIR__ . '/..' . '/spatie/laravel-ignition/src',
+            0 => __DIR__ . '/..' . '/spatie/laravel-ignition/src',
+            1 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/laravel-ignition',
         ),
         'Spatie\\Ignition\\' => 
         array (
-            0 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/ignition',
-            1 => __DIR__ . '/..' . '/spatie/ignition/src',
+            0 => __DIR__ . '/..' . '/spatie/ignition/src',
+            1 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/ignition',
         ),
         'Spatie\\FlareClient\\' => 
         array (
@@ -355,8 +355,8 @@ class ComposerStaticInitbfe12996eeecb6fdc8713a9fd9d431f8
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -532,8 +532,22 @@ class ComposerStaticInitbfe12996eeecb6fdc8713a9fd9d431f8
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
+        'App\\Http\\Controllers\\ChairmanMessageController' => __DIR__ . '/../..' . '/app/Http/Controllers/ChairmanMessageController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\CountryController' => __DIR__ . '/../..' . '/app/Http/Controllers/CountryController.php',
+        'App\\Http\\Controllers\\CourseController' => __DIR__ . '/../..' . '/app/Http/Controllers/CourseController.php',
+        'App\\Http\\Controllers\\FrontController' => __DIR__ . '/../..' . '/app/Http/Controllers/FrontController.php',
+        'App\\Http\\Controllers\\HomeIntroductionController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeIntroductionController.php',
+        'App\\Http\\Controllers\\IntroductionController' => __DIR__ . '/../..' . '/app/Http/Controllers/IntroductionController.php',
+        'App\\Http\\Controllers\\NewsletterController' => __DIR__ . '/../..' . '/app/Http/Controllers/NewsletterController.php',
+        'App\\Http\\Controllers\\PhotoGalleryController' => __DIR__ . '/../..' . '/app/Http/Controllers/PhotoGalleryController.php',
+        'App\\Http\\Controllers\\ScrollingImageController' => __DIR__ . '/../..' . '/app/Http/Controllers/ScrollingImageController.php',
+        'App\\Http\\Controllers\\StudentAdmissionController' => __DIR__ . '/../..' . '/app/Http/Controllers/StudentAdmissionController.php',
+        'App\\Http\\Controllers\\StudentTestiminialController' => __DIR__ . '/../..' . '/app/Http/Controllers/StudentTestiminialController.php',
+        'App\\Http\\Controllers\\WhyBullController' => __DIR__ . '/../..' . '/app/Http/Controllers/WhyBullController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
+        'App\\Http\\Middleware\\AuthMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/AuthMiddleware.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
@@ -543,7 +557,18 @@ class ComposerStaticInitbfe12996eeecb6fdc8713a9fd9d431f8
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Country' => __DIR__ . '/../..' . '/app/Models/Country.php',
+        'App\\Models\\Course' => __DIR__ . '/../..' . '/app/Models/Course.php',
+        'App\\Models\\Introduction' => __DIR__ . '/../..' . '/app/Models/Introduction.php',
+        'App\\Models\\Newsletter' => __DIR__ . '/../..' . '/app/Models/Newsletter.php',
+        'App\\Models\\PhotoGallery' => __DIR__ . '/../..' . '/app/Models/PhotoGallery.php',
+        'App\\Models\\StudentAdmission' => __DIR__ . '/../..' . '/app/Models/StudentAdmission.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\home_page\\ChairmanMessage' => __DIR__ . '/../..' . '/app/Models/home_page/ChairmanMessage.php',
+        'App\\Models\\home_page\\HomeIntroduction' => __DIR__ . '/../..' . '/app/Models/home_page/HomeIntroduction.php',
+        'App\\Models\\home_page\\Scrolling_Image' => __DIR__ . '/../..' . '/app/Models/home_page/Scrolling_Image.php',
+        'App\\Models\\home_page\\StudentTestiminial' => __DIR__ . '/../..' . '/app/Models/home_page/StudentTestiminial.php',
+        'App\\Models\\home_page\\WhyBull' => __DIR__ . '/../..' . '/app/Models/home_page/WhyBull.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -660,6 +685,8 @@ class ComposerStaticInitbfe12996eeecb6fdc8713a9fd9d431f8
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
+        'Database\\Seeders\\AdminSeeder' => __DIR__ . '/../..' . '/database/seeders/AdminSeeder.php',
+        'Database\\Seeders\\Course' => __DIR__ . '/../..' . '/database/seeders/Course.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
         'DateException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateException.php',
