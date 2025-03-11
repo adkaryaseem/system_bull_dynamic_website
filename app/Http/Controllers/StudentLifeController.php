@@ -35,7 +35,7 @@ class StudentLifeController extends Controller
 
         $image = $request->file("image")->store("images/gallery/studnetlife","public");
         StudentLife::create([
-            "images" => $image
+            "image" => $image
         ]);
 
         return redirect()->route('admin.studentlife.index');

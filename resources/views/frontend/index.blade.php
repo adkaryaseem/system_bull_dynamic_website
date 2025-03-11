@@ -233,27 +233,23 @@
 
       <!-- Students Life -->
       <div class="student-life-sec">
-        <div class="student-life">
           <div class="student-life-text">
             <span> Student Life </span>
-            <div style="max-width: 100px">
+            <div class="width">
               Our students create a vibrant and inclusive community
             </div>
           </div>
-          @foreach ($studentlife as $student)  
           <div class="student-life-img">
-            <div>
-              <img src="{{ asset('storage/'.$student->image) }}" alt="sl-1" class="sl-1" />
-            </div>
+            @foreach ($studentlife as $student)  
+              <img src="{{ asset('storage/'.$student->image) }}" alt="student life image" class="sl" />
             {{-- <div>
               <img src="{{asset("frontend/image/sl-2.jpeg")}}" alt="sl-2" class="sl-2" />
             </div>
             <div>
               <img src="{{asset("frontend/image/sl-3.jpeg")}}" alt="sl-3" class="sl-3" />
             </div> --}}
+            @endforeach
           </div>
-          @endforeach
-        </div>
       </div>
       <!-- Message From Principal, History, Vision & Mission-->
       <div class="bull-all">

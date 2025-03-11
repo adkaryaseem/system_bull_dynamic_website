@@ -324,51 +324,39 @@ main h3{
 
 .student-life-sec{
     width: 100vw;
-    height: 900px;
+    height: 500px;
     margin: 20px;
     background-color: #1d2057;
-}
-
-.student-life{
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    place-items: center;
 }
 
 .student-life-img{
     display: flex;
     flex-direction: row;
-    /* width: 50%; */
-    height: 300px;
-    /* margin: 100px 250px 20px 10px; */
+    height: 400px;
     justify-content: space-evenly;
 }
 
 .student-life-img img{
+    display: flex;
+    flex-direction: row;
     width: 300px;
     height: 300px;
-    /* margin: 20px; */
-}
-
-.student-life-img .sl-1{
-    margin-top: 25px;
     border-radius: 10%;
-}
-
-.student-life-img .sl-2{
-    margin-top: 200px;
-    border-radius: 10%;
-}
-
-.student-life-img .sl-3{
-    margin-top: 25px;
-    border-radius: 10%;
+    margin: 50px 5px 2px 10px;
 }
 
 .student-life-text{
-    /* text-align: justify; */
+    color: white;
     font-size: 30px;
+    width: auto;
+    font-size: 50px;
+    text-align: center;
+    place-items: center;
+}
+
+.width{
+    font-size: 30px;
+    max-width: 500px;
 }
 
 .bull-all{
