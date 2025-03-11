@@ -18,7 +18,8 @@ body{
 
 .menu{
     display: flex;
-    max-width: 300px;
+    width: 300px;
+    max-width: 800px;
     height: 100vw;
     background-color: rgb(48, 47, 54);
     box-shadow: 5px 0px 5px rgb(139, 138, 138);
@@ -50,4 +51,18 @@ main{
 
 .container{
     margin:5px;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.sub-menu ul li{
+    justify-content: left;
+    place-content: left;
+    text-align: left;
+}
+
+.hover:hover .sub-menu{
+    display: block;
 }
