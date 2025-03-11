@@ -7,6 +7,7 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\WhyBullController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\StudentLifeController;
 use App\Http\Controllers\IntroductionController;
 use App\Http\Controllers\PhotoGalleryController;
 use App\Http\Controllers\ScrollingImageController;
@@ -128,5 +129,13 @@ Route::prefix('admin/')->name('admin.')->middleware('auth.check')->group(functio
     Route::get('whybull/edit/{id}', [WhyBullController::class, "edit"])->name('whybull.edit');
     Route::post('whybull/update/{id}', [WhyBullController::class, "update"])->name('whybull.update');
     Route::any('whybull/delete/{id}', [WhyBullController::class, "delete"])->name('whybull.delete');
+
+
+    Route::get('studentlife/index', [StudentLifeController::class, "index"])->name('studentlife.index');
+    Route::get('studentlife/create', [StudentLifeController::class, "create"])->name('studentlife.create');
+    Route::post('studentlife/store', [StudentLifeController::class, "store"])->name('studentlife.store');
+    Route::get('studentlife/edit/{id}', [StudentLifeController::class, "edit"])->name('studentlife.edit');
+    Route::post('studentlife/update/{id}', [StudentLifeController::class, "update"])->name('studentlife.update');
+    Route::any('studentlife/delete/{id}', [StudentLifeController::class, "delete"])->name('studentlife.delete');
 });
 

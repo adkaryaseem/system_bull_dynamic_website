@@ -9,6 +9,7 @@ use App\Models\PhotoGallery;
 use Illuminate\Http\Request;
 use App\Models\StudentAdmission;
 use App\Models\home_page\WhyBull;
+use App\Models\home_page\StudentLife;
 use App\Models\home_page\ChairmanMessage;
 use App\Models\home_page\Scrolling_Image;
 use App\Models\home_page\HomeIntroduction;
@@ -24,7 +25,8 @@ class FrontController extends Controller
         $testimonials = StudentTestiminial::get();
         $introductions = HomeIntroduction::get();
         $why = WhyBull::get();
-        return view("frontend.index",compact('scrolling','chairman', 'testimonials','introductions','why' ));
+        $studentlife = StudentLife::get();
+        return view("frontend.index",compact('scrolling','chairman', 'testimonials','introductions','why','studentlife' ));
     }
 
     public function introduction()

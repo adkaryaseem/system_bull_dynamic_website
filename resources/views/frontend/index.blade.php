@@ -140,8 +140,10 @@
             <li>
               1 Year Study (Professional Computer Hardware & Network Technician)
             </li>
-            <li>2 Years OJT (Job)</li>
-            <button class="lrn-mor">Learn More</button>
+            <li>
+              2 Years OJT (Job)
+            </li>
+            <button class="lrn-mor" type="submit">Learn More</button>
           </ul>
         </div>
         <div class="info-img">
@@ -152,16 +154,16 @@
         </div>
       </div>
       <!-- College Introduction -->
-      @foreach ($introductions as $introduction)  
       <div class="sys-intro">
         <div class="int">
           <div class="topic">
             <h1>Introduction</h1>
           </div>
+        @foreach ($introductions as $introduction)  
           <span class="intro-text">
             {{ $introduction->message }}
             <div>
-              <button class="over-view">College Overview</button>
+              <button class="over-view" type="submit">College Overview</button>
             </div>
           </span>
         </div>
@@ -192,7 +194,7 @@
             {{ $bull->message }}
             @endforeach
             <div class="msg-btn">
-              <button class="rdmr-btn">Read More</button>
+              <button class="rdmr-btn" type="submit">Read More</button>
             </div>
           </div>
         </div>
@@ -238,17 +240,19 @@
               Our students create a vibrant and inclusive community
             </div>
           </div>
+          @foreach ($studentlife as $student)  
           <div class="student-life-img">
             <div>
-              <img src="{{asset("frontend/image/sl-1.jpeg")}}" alt="sl-1" class="sl-1" />
+              <img src="{{ asset('storage/'.$student->image) }}" alt="sl-1" class="sl-1" />
             </div>
-            <div>
+            {{-- <div>
               <img src="{{asset("frontend/image/sl-2.jpeg")}}" alt="sl-2" class="sl-2" />
             </div>
             <div>
               <img src="{{asset("frontend/image/sl-3.jpeg")}}" alt="sl-3" class="sl-3" />
-            </div>
+            </div> --}}
           </div>
+          @endforeach
         </div>
       </div>
       <!-- Message From Principal, History, Vision & Mission-->
@@ -269,7 +273,7 @@
           System Bull ICT College has Over 4,000 alumni. They are pursuing their
           career and studies around the...
           <div class="msg-btn">
-            <button class="rdmr-btn">Read More</button>
+            <button class="rdmr-btn" type="submit">Read More</button>
           </div>
         </div>
         <div class="vision-mission">
@@ -277,7 +281,7 @@
           To develop middle and top-level Technical professionals with high
           caliber ready to accept ever-gr...
           <div class="msg-btn">
-            <button class="rdmr-btn">Read More</button>
+            <button class="rdmr-btn" type="submit">Read More</button>
           </div>
         </div>
       </div>
@@ -293,7 +297,7 @@
             run with top tier infrastructure and an experienced team of faculty
             members is seen to be monumental.
             <div class="msg-btn">
-              <button class="rdmr-btn">Discover More</button>
+              <button class="rdmr-btn" type="submit">Discover More</button>
             </div>
           </div>
         </div>
@@ -327,7 +331,7 @@
         <div class="card-1 d-flex">
           <img
             src="{{ asset('storage/'.$testimonial->image) }}"
-            alt="No Internert Connection yet"
+            alt="Upload Image"
           />
           <p
             style="
