@@ -1,6 +1,9 @@
 <section class="menu">
     <ul type="none">
         <li>
+            <a href="{{ route('admin.dashboard.index') }}">Dashboard</a>
+        </li>
+        <li>
             <div class="hover">
                 <a href="">About &#x25BC;</a>
                 <section class="sub-menu">

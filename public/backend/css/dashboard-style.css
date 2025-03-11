@@ -20,7 +20,7 @@ body{
     display: flex;
     width: 300px;
     max-width: 800px;
-    height: 100vw;
+    height: 100vh;
     background-color: rgb(48, 47, 54);
     box-shadow: 5px 0px 5px rgb(139, 138, 138);
 }
@@ -51,6 +51,22 @@ main{
 
 .container{
     margin:5px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+.text img{
+    height: 200px;
+    width: 200px;
+}
+
+.text h1{
+    font-size: 50px;
 }
 
 .sub-menu{

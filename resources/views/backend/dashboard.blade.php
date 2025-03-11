@@ -39,7 +39,13 @@
     </div> --}}
         <section class="content">
             <div class="container">
-
+                <div class="text">
+                    <img src="{{ asset('frontend/image/logo.png') }}" alt="logo">
+                   <h1>Welcome to the System Bull ICT College Cpanel</h1>
+                    <h1>
+                        System Bull ICT College Cpanel Dashboard
+                    </h1>
+                </div>
             </div>
         </section>
 @endsection
