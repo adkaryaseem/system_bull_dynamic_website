@@ -3,8 +3,6 @@
     <title>Introduction Edit</title>
 @endpush
 @section('backend-main')
-
-@include("backend.partials.navbar")
 <form action="{{ route('admin.homeintroduction.update',[$introduction->id]) }}" method="POST" enctype="multipart/form-data">
     @csrf
     <table width="100%">

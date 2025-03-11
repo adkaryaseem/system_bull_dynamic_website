@@ -3,8 +3,6 @@
     <title>Introduction Edit</title>
 @endpush
 @section('backend-main')
-
-@include("backend.partials.navbar")
 <form action="{{ route('admin.countries.update',[$country->id]) }}" method="POST">
     @csrf
     <table width="100%">

@@ -1,7 +1,6 @@
 @extends('backend.layouts.main')
 
 @section('backend-main')
-@include("backend.partials.navbar")
 
 @if (session()->has('message'))
     <span>

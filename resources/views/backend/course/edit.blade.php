@@ -4,7 +4,6 @@
 @endpush
 @section('backend-main')
 
-@include("backend.partials.navbar")
 <form action="{{ route('admin.course.update',[$course->id]) }}" method="POST">
     @csrf
     <table width="100%">

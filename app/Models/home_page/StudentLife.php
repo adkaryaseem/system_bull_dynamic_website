@@ -9,9 +9,9 @@ class StudentLife extends Model
 {
     use HasFactory;
 
-    protected $table = "tudent_lives";
+    protected $table = "student_lives";
 
     protected $fillable = [
-        "iamge"
+        "image"
     ];
 }

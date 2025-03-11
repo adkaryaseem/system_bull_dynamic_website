@@ -4,7 +4,6 @@
 @endpush
 @section('backend-main')
 
-@include("backend.partials.navbar")
 <form action="{{ route('admin.introduction.update',[$introduction->id]) }}" method="POST" enctype="multipart/form-data">
     @csrf
     <table width="100%">

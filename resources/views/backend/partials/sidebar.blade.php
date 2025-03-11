@@ -47,6 +47,9 @@
                             <li>
                             <a href="{{ route('admin.whybull.index') }}">Why System Bull</a>
                             </li>
+                            <li>
+                                <a href="{{ route('admin.studentlife.index') }}">Student Life</a>
+                            </li>
                         </ul>
                     </section>
             </div>

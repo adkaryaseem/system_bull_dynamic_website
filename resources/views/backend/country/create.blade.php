@@ -2,8 +2,6 @@
 
 @section('backend-main')
 
-@include("backend.partials.navbar")
-
 @if (session()->has("message"))
     <p style="background-color: aqua ; color: brown ;">
         {{ session()->get("message") }}

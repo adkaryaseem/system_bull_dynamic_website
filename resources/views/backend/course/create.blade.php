@@ -2,7 +2,6 @@
 
 @section('backend-main')
 
-@include("backend.partials.navbar")
 @if (session()->has('message'))
     <p>
         {{ session()->get('message') }}
