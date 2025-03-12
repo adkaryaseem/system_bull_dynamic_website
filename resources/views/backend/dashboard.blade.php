@@ -38,6 +38,7 @@
        </div>
     </div> --}}
         <section class="content">
+            @include('backend.partials.header')
             <div class="container">
                 <div class="text">
                     <img src="{{ asset('frontend/image/logo.png') }}" alt="logo">

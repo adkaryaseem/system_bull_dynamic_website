@@ -1,0 +1,11 @@
+.header-sec{
+    top: 0;
+    position: fixed;
+    width: 81%;
+    height: 30px;
+    /* display: flex; */
+    /* float: right; */
+    /* text-align: right; */
+    /* justify-content: right; */
+    background-color: rgb(48, 47, 54);
+}

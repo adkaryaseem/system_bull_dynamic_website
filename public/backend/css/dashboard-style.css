@@ -50,7 +50,7 @@ main{
 }
 
 .container{
-    margin:5px;
+    margin:50px;
 }
 
 .text{
@@ -74,9 +74,7 @@ main{
 }
 
 .sub-menu ul li{
-    justify-content: left;
-    place-content: left;
-    text-align: left;
+    transform:translateX(-50px);
 }
 
 .hover:hover .sub-menu{
