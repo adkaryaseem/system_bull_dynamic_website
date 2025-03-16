@@ -1,6 +1,11 @@
 <section class="menu">
     <ul type="none">
         <li>
+            <h3>
+                {{  Auth::user()->name }}
+            </h3>
+        </li>
+        <li>
             <a href="{{ route('admin.dashboard.index') }}">Dashboard</a>
         </li>
         <li>

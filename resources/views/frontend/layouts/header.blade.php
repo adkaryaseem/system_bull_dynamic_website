@@ -10,6 +10,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="{{ asset('frontend/css/header-style.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/footer-style.css') }}">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -24,7 +25,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="{{ asset('frontend/css/footer-style.css') }}">
 
     @stack("css")
 
@@ -145,7 +145,7 @@
           <a href="{{ route('homepage') }}"> Home </a>
         </div>
         <div class="nav-content hover">
-          <a href=""> About Us <i class="fa-solid fa-angle-down"></i></a>
+          <a href=""> About Us <i class="fa-solid fa-angle-down" style="color:rgb(12, 12, 113);"></i></a>
           <div class="nav-content-inside">
             <div class="drop-down-content">
               <a href="{{ route("about.introduction") }}"> Introduction </a>
@@ -165,7 +165,7 @@
           <a href="{{ route('admission-form') }}" target="_blank"> Admission </a>
         </div>
         <div class="nav-content hover">
-          <a href=""> Courses <i class="fa-solid fa-angle-down"></i> </a>
+          <a href=""> Courses <i class="fa-solid fa-angle-down" style="color:rgb(12, 12, 113);"></i> </a>
           <div class="nav-content-inside">
             <div class="drop-down-content">
               <a href="{{ route('courses.dict') }}">
@@ -186,7 +186,7 @@
           <a href="{{ route('program') }}"> Program </a>
         </div>
         <div class="nav-content hover">
-          <a href=""> Gallery <i class="fa-solid fa-angle-down"></i> </a>
+          <a href=""> Gallery <i class="fa-solid fa-angle-down" style="color:rgb(12, 12, 113);"></i> </a>
           <div class="nav-content-inside">
             <div class="drop-down-content">
               <a href="{{ route('gallary.photo') }}"> Photo Gallery </a>

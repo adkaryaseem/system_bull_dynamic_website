@@ -1,7 +1,7 @@
 <footer>
   <div class="return-top">
     <button id="back-to-top" class="back-to-top">
-      <i class="fa-solid fa-angle-up"></i>
+        <i class="fa-solid fa-angle-up" style="color:blue;"></i>
     </button>
   </div>
     <div class="footer-sections">
@@ -36,41 +36,41 @@
         <div class="quick-contacts">
           <div class="quick-contact">Quick Contact</div>
           <div class="quick-address middle-2">
-            <i class="fa-solid fa-location-dot"></i>
+            <i class="fa-solid fa-location-dot" style="color: rgb(223, 12, 12);"></i>
             Mayalbari-12, Teku, Kathmandu, Nepal
           </div>
           <div class="postbox middle-2">
-            <i class="fa-solid fa-tty"></i>
+            <i class="fa-solid fa-tty" style="color: rgb(219, 226, 32);"></i>
             POB : 929, Kathmandu, Nepal
           </div>
           <div class="quick-tel middle-2">
-            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-phone" style="color: rgb(227, 102, 25);"></i>
             01-5922111
           </div>
           <div class="quick-mail middle-2">
-            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-envelope" style="color: rgb(134, 211, 18);"></i>
             info@systembull.edu.np
           </div>
         </div>
         <div class="news-letter-section">
           <div class="news-letter">Newsletter</div>
-          <div class="email-box-text">
-            Email subscription is an opportunity to receive an interesting
-            newsletter from a website.
-          </div>
+            <div class="email-box-text">
+              Email subscription is an opportunity to receive an interesting
+              newsletter from a website.
+            </div>
           <div>
             {{-- <div data-sitekey="6LeDGb4pAAAAAO9CdUen5frZdk4132NjKvm-jbWn" class="g-recaptcha"></div> --}}
-            <div data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" class="g-recaptcha"></div>
             <div id="newsletter-message">
               <input id="email-newsletter"
-                type="text"
-                placeholder="Enter your email"
-                class="email-box"
-                required
+              type="text"
+              placeholder="Enter your email"
+              class="email-box"
+              required
               />
               <button id="submit" type="submit">Submit</button>
             </div>
           </div>
+          <div data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" class="g-recaptcha"></div>
         </div>
       </div>
       <hr />
@@ -111,10 +111,24 @@
     });
   </script>
   <script>
+
+
+      window.onscroll = function (){
+          if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) 
+          {
+            document.querySelector('.return-top').style.display="flex"
+
+          }else
+            document.querySelector('.return-top').style.display="none"
+          {
+          }
+      };
+
+
       document.addEventListener("DOMContentLoaded", function () {
         document.querySelector("#back-to-top").addEventListener("click", function (e) {
             e.preventDefault();
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            window.scrollTo({ top: 2, behavior: "smooth" });
         });
 
 

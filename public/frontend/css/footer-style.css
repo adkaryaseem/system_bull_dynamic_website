@@ -26,9 +26,18 @@
 }
 
 @keyframes blink {
-    0%{background-image: radial-gradient(rgb(244, 150, 150),rgb(249, 243, 243))}
-    50%{background-image: radial-gradient(rgb(244, 150, 150),rgb(255, 255, 255));}
-    100%{background-image: radial-gradient(rgb(244, 150, 150),rgb(247, 224, 224))}
+    0%{background-image: radial-gradient(rgb(244, 150, 150),white)}
+    25%{background-image: radial-gradient(rgb(244, 150, 150),rgb(242, 232, 232))}
+    50%{background-image: radial-gradient(rgb(244, 150, 150),rgb(231, 205, 205))}
+    75%{background-image: radial-gradient(rgb(244, 150, 150),rgb(249, 243, 243))}
+    100%{background-image: radial-gradient(rgb(244, 150, 150),rgb(235, 206, 206))}
+}
+
+.return-top button{
+    border-style: none;
+}
+#news-letter-message{
+    margin-bottom: 20px;
 }
 
 /* button{

@@ -52,6 +52,8 @@ Route::post('newsletter/subscribe', [NewsletterController::class, "newslettersub
 // Backend routes
 Route::get('login/index', [AuthController::class, "loginindex"])->name("login.index");
 Route::post('login', [AuthController::class, "login"])->name("login");
+Route::post('logout', [AuthController::class, "logout"])->name("logout");
+
 
 //route grouping
 Route::prefix('admin/')->name('admin.')->middleware('auth.check')->group(function () {

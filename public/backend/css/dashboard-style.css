@@ -1,26 +1,22 @@
-/* .d-flex{
-    display: flex;
-    flex-direction: row;
-}
-
-.cntnr{
-    flex: 1;
-    padding: 30px;
-    box-shadow: 0px 0px 10px #cccc;
-    border-radius: 10px;
-    text-align: center;
-} */
-
 body{
     margin:0;
     padding:0;
+    overflow: hidden;
+}
+
+.header-sec{
+    top: 0;
+    position: fixed;
+    height: 30px;
+    background-color: rgb(48, 47, 54);
 }
 
 .menu{
+    position:fixed;
+    left:0;
     display: flex;
-    width: 300px;
-    max-width: 800px;
-    height: 100vh;
+    width: 180px;
+    height: 100%;
     background-color: rgb(48, 47, 54);
     box-shadow: 5px 0px 5px rgb(139, 138, 138);
 }
@@ -45,22 +41,37 @@ main{
     flex-direction:row;
 }
 
-.content{
-    width:100%;
-}
-
-.container{
-    margin:50px;
-}
-
-.text{
+.container-fluid{
+    position :absolute;
+    top:30px;
+    left:180px;
+    bottom:30px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     place-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.text img{
+.logout{
+    margin:5px 5px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 106, 106);
+    border:none;
+    outline:1px solid rgb(255, 106, 106);
+    transition: all 0.3s ease-in-out;
+}
+
+.logout:hover{
+    background-color: rgb(255, 106, 106);
+    color:white;
+    outline:1px solid white;
+}
+
+
+img{
     height: 200px;
     width: 200px;
 }
