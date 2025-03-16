@@ -10,4 +10,5 @@
 </head>
 <body>
     <main>
+        @include('backend.partials.header')
     @include('backend.partials.sidebar')

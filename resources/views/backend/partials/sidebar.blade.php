@@ -1,10 +1,8 @@
 <section class="menu">
     <ul type="none">
-        <li>
-            <h3>
+            <h3 style="color: white; justify-content: center; place-items: center;">
                 {{  Auth::user()->name }}
             </h3>
-        </li>
         <li>
             <a href="{{ route('admin.dashboard.index') }}">Dashboard</a>
         </li>

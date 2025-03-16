@@ -11,8 +11,6 @@
                 <h1>
                     System Bull ICT College Cpanel Dashboard
                 </h1>
-            {{-- <div class="text"> --}}
-            {{-- </div> --}}
         </div>
     </section>
 @endsection
