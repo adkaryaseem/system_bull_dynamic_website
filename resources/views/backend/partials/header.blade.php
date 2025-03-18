@@ -4,12 +4,10 @@
     <form action="{{  route('logout') }}" method="post">
         @csrf
         <button type="submit" class="logout">
-            &#10162;
+            <i class="fa-solid fa-right-from-bracket"></i>
         </button>
     </form>
-
     @endauth
-
     {{-- @guest
         for not authenticated users
     @endguest --}}
