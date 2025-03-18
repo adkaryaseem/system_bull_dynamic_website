@@ -26,7 +26,7 @@
                     Action
                 </th>
             </tr>
-            @foreach ($introductions as $index=> $introduction)
+            @foreach ($introductions as $index => $introduction)
                 <tr>
                     <td>
                         {{ ++$index }}
