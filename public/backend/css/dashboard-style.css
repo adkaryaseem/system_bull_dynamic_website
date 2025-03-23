@@ -72,9 +72,9 @@ main{
 }
 
 .container{
-    margin: 25px 0 10px 250px;
+    margin: 25px 0 2px 250px;
     width: 80vw;
-    height: 85vh;
+    height: 90vh;
     overflow-y: scroll;
 }
 
